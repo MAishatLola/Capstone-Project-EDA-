@@ -154,7 +154,7 @@ Improving Data Quality (Finding 4):
 - Analyze the relationship between athletes' physical attributes and their performance in different sports, considering various factors like training regimes and technical skills.
 - Explore the correlation between participation trends and socio-economic factors across different regions, identifying potential inequalities and opportunities for promoting broader athlete representation.
 
-  ***These recommendations aim to address the identified issues, promote gender equality, improve data quality, and foster further research for deeper understanding of athlete participation patterns and trends in the Olympics. By implementing these suggestions, the Olympic Games can strive towards greater inclusivity, fairness, and representation for all athletes.*
+  *These recommendations aim to address the identified issues, promote gender equality, improve data quality, and foster further research for deeper understanding of athlete participation patterns and trends in the Olympics. By implementing these suggestions, the Olympic Games can strive towards greater inclusivity, fairness, and representation for all athletes.*
 
 
 ### Limitations
