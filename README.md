@@ -100,15 +100,68 @@ import seaborn as sns
 sns.catplot(olympics, y = 'Year', hue = 'Sex', kind = 'count', col = 'Season');
 ```
 ### Results/Findings
-The Analysis results are summarized as follows:
+#### Analysis of Olympic Athlete Data:
+
+##### This analysis examined various aspects of athletes participating in the Olympics. Here are the key findings:
+
+1. Average Athlete Demographics:
+
+There's a noticeable difference in average age, height, and weight between male (M) and female (F) athletes:
+Female: Age: 23.75, Height: 168.53 cm, Weight: 61.01 kg
+Male: Age: 26.30, Height: 177.67 cm, Weight: 74.54 kg
+2. Age Distribution:
+
+The youngest athlete recorded was 10 years old (1896), and the oldest was 96 (1932).
+3. Minimum Age by Season and Gender:
+
+Interestingly, both Summer and Winter seasons have the same minimum age (11.0 years) for female athletes.
+4. Missing Data:
+
+The dataset contains some events with missing information on sports and teams.
+5. Minimum Age by Gender and Medal:
+
+The minimum age for female medalists ranges from 24 to 25 years old.
+Male medalists' minimum age falls within the range of 23 to 26 years old.
+6. Correlation Between Height and Weight:
+
+A positive correlation exists between athletes' height and weight, indicating taller athletes tend to be heavier (based on gender).
+7. Gender Participation Imbalance:
+
+The dataset reveals a significantly higher number of male athletes compared to females.
+8. Participation Trends:
+
+Both male and female athlete participation has increased over time, with a more significant rise observed in the Summer Olympics compared to Winter Olympics.
+This analysis provides valuable insights into the demographics and participation patterns of athletes in the Olympic Games. Further investigation could explore specific sports, medal distributions, or trends across different regions.
 
 
 ### Recommendations
-Based on the Analysis conducted, these are the recommentions:
+#### Recommendations based on the Analysis of Olympic Athlete Data:
+
+Addressing Gender Imbalance (Finding 7):
+
+- Encourage and actively support participation of young girls in sports programs at early ages to bridge the participation gap.
+- Implement initiatives to raise awareness about gender equity in sports and combat social biases that discourage female participation.
+- Consider establishing specific quota systems for female athletes in certain sports, ensuring their representation.
+
+Improving Data Quality (Finding 4):
+
+- Collaborate with Olympic data collectors and organizations to implement stricter data collection procedures to minimize missing information.
+- Investigate methods to impute missing data responsibly and ethically, considering potential biases and limitations.
+
+###### Further Research Opportunities (Overall Analysis):
+
+- Deep-dive into specific sports to identify factors influencing participation trends, analyzing variations in age, gender, and other demographics.
+- Analyze the relationship between athletes' physical attributes and their performance in different sports, considering various factors like training regimes and technical skills.
+- Explore the correlation between participation trends and socio-economic factors across different regions, identifying potential inequalities and opportunities for promoting broader athlete representation.
+
+  ***These recommendations aim to address the identified issues, promote gender equality, improve data quality, and foster further research for deeper understanding of athlete participation patterns and trends in the Olympics. By implementing these suggestions, the Olympic Games can strive towards greater inclusivity, fairness, and representation for all athletes.*
 
 
 ### Limitations
-- Insufficient provisions of data for the size and representativeness of "Other" Gender Category
+#### Data Availability and Scope (Findings 1, 2, 5, 6, 8):
+
+- The analysis is limited by the specific data provided, which may not encompass all Olympic athletes across all years and sports. This could introduce biases or skew the findings towards certain demographics or events.
+- The analysis focuses solely on average demographics and minimum age, overlooking the full distribution of these variables across different age groups and sports.
 
 ### References
 Check out the original source if you are interested in using this data for other purposes [Download Here](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
